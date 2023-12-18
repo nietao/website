@@ -1,8 +1,11 @@
+<!--
+ * @Author: 聂涛
+ * @Date: 2023-12-18 15:36:27
+ * @LastEditors: 聂涛
+ * @LastEditTime: 2023-12-18 15:57:39
+ * @Description:
+-->
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
   <router-view/>
 </template>
 
@@ -17,7 +20,6 @@
 
 nav {
   padding: 30px;
-
   a {
     font-weight: bold;
     color: #2c3e50;
